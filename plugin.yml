@@ -1,0 +1,17 @@
+name: SimpleWebServer
+main: org.bitbucket.niehsaibot.simplewebserver.SimpleWebServer
+version: 0.3
+commands:
+  sws:
+    description: Primary command for SimpleWebServer.
+    usage: |
+           /<command> - List available commands (show help).
+           /<command> reload - Reloads the configuration file.
+permissions:
+  sws.*:
+    description: Grants all SimpleWebServer permissions
+    children:
+      sws.reload: true
+  sws.reload:
+    description: Can reload the configuration file.
+    default: op

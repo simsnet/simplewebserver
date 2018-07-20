@@ -1,0 +1,14 @@
+# Defines the port of the web server. Defaults to 8080.
+#port: 8080
+
+# Defines the binding address of the web server. Defaults to the server's IP address. 
+#binding-address: 0.0.0.0
+
+# Defines the root folder of the web server. Defaults to the plugin's data folder.
+#root-folder: ./
+
+# Use plugin metrics. Defaults to true.
+#plugin-metrics: true
+
+# Checks for updates on startup. Defaults to true.
+#update-check: true
